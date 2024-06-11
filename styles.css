@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -14,7 +14,7 @@ body {
     padding: 15px;
     position: fixed;
     height: 100%;
-    overflow-y: auto; /* Make sidebar scrollable */
+    overflow-y: auto; 
 }
 
 
@@ -114,4 +114,58 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
-}
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+  }
+  html {
+    background: #000;
+    height: 100%;
+  }
+  body {
+    background: #000;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr4HneVOzNy_B52hvYuMsnPJ1dBDxzKcQ54g&s');
+    background-size: cover;
+    color: #fff;
+    display: table;
+    height: 100%;
+    width: 100%;  
+  }
+  .container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  h1 {
+    text-transform: capitalize;
+  }
+  h1 > p {
+    font-size: 60px; 
+  }
+  .counters {
+    margin: 20px;
+  }
+  .counter {
+    background: #0088ff;
+    display: inline-block;
+    min-width: 100px;
+  }
+  .counter > p {
+    text-transform: uppercase;
+    background: #0069ff;
+    padding: 8px;
+  }
+  span {
+    display: block;
+    height: 125px;
+    font-size: 50px;
+    line-height: 125px;
+  }
+  
+  
